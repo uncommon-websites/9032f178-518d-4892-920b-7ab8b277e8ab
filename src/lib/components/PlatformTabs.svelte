@@ -66,19 +66,19 @@
                             </div>
                             <div class="divide-y divide-gray-50 text-xs">
                                  {#each [
-                                     {kw: 'ai content generation', vol: '12k', kd: '65', cpc: '$4.20', status: 'Rank #1'},
-                                     {kw: 'seo automation tools', vol: '8.5k', kd: '54', cpc: '$3.50', status: 'Rank #3'},
-                                     {kw: 'content strategy template', vol: '5.2k', kd: '42', cpc: '$1.80', status: 'Rank #5'},
-                                     {kw: 'best ai writers 2024', vol: '3.1k', kd: '38', cpc: '$2.10', status: 'Rising'},
-                                     {kw: 'programmatic seo guide', vol: '2.8k', kd: '45', cpc: '$5.00', status: 'New'}
+                                     {creative: 'Tech News - Contextual', imp: '124k', ctr: '4.2%', conv: '3.8%', status: 'Active'},
+                                     {creative: 'Finance - Dynamic CTA', imp: '98k', ctr: '3.9%', conv: '3.2%', status: 'Active'},
+                                     {creative: 'Lifestyle - Personalized', imp: '87k', ctr: '3.5%', conv: '2.9%', status: 'Active'},
+                                     {creative: 'Sports - Real-time', imp: '76k', ctr: '4.1%', conv: '3.5%', status: 'Learning'},
+                                     {creative: 'Travel - Seasonal', imp: '65k', ctr: '3.7%', conv: '3.1%', status: 'Testing'}
                                  ] as item}
                                  <div class="px-4 py-3 flex items-center hover:bg-gray-50 transition-colors">
-                                     <div class="w-1/3 font-medium text-gray-900">{item.kw}</div>
-                                     <div class="w-1/6 text-right text-gray-600">{item.vol}</div>
+                                     <div class="w-1/3 font-medium text-gray-900">{item.creative}</div>
+                                     <div class="w-1/6 text-right text-gray-600">{item.imp}</div>
                                      <div class="w-1/6 text-right">
-                                         <span class="px-1.5 py-0.5 rounded text-[10px] font-bold {parseInt(item.kd) > 60 ? 'bg-red-100 text-red-700' : parseInt(item.kd) > 40 ? 'bg-yellow-100 text-yellow-700' : 'bg-green-100 text-green-700'}">{item.kd}</span>
+                                         <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-green-100 text-green-700">{item.ctr}</span>
                                      </div>
-                                     <div class="w-1/6 text-right text-gray-600">{item.cpc}</div>
+                                     <div class="w-1/6 text-right text-gray-600">{item.conv}</div>
                                      <div class="w-1/6 text-right">
                                          <span class="text-[10px] font-bold text-brand-green">{item.status}</span>
                                      </div>
@@ -95,15 +95,15 @@
         <div class="grid md:grid-cols-3 gap-0 mt-0 border-x border-b border-gray-200 divide-x divide-gray-200 bg-white">
             <div class="p-6 flex items-start gap-4 hover:bg-gray-50 transition-colors cursor-pointer">
                 <div class="w-6 h-6 rounded-full border border-gray-300 flex-shrink-0 flex items-center justify-center text-xs font-mono">1</div>
-                <p class="text-xs text-gray-600 leading-relaxed">Gain deep intel into keywords, user intent, and traffic pricing. Influence your roadmap with real-time data.</p>
+                <p class="text-xs text-gray-600 leading-relaxed">Scan page content and analyze context in real-time to understand the perfect creative for each impression.</p>
             </div>
             <div class="p-6 flex items-start gap-4 hover:bg-gray-50 transition-colors cursor-pointer">
                 <div class="w-6 h-6 rounded-full border border-gray-300 flex-shrink-0 flex items-center justify-center text-xs font-mono">2</div>
-                <p class="text-xs text-gray-600 leading-relaxed">Surface opportunities on your owned content, external sites, and even Reddit threads on a regular cadence.</p>
+                <p class="text-xs text-gray-600 leading-relaxed">Generate unique ad creative with headlines, visuals, CTAs, and tone optimized for that specific moment and audience.</p>
             </div>
             <div class="p-6 flex items-start gap-4 hover:bg-gray-50 transition-colors cursor-pointer">
                 <div class="w-6 h-6 rounded-full border border-gray-300 flex-shrink-0 flex items-center justify-center text-xs font-mono">3</div>
-                <p class="text-xs text-gray-600 leading-relaxed">Prioritize action items so you can start where to grow and complete more impactful tasks—you're aligned with what improves it.</p>
+                <p class="text-xs text-gray-600 leading-relaxed">Learn from every impression to improve the next. Campaigns get smarter over time with accelerating ROI.</p>
             </div>
         </div>
     </div>

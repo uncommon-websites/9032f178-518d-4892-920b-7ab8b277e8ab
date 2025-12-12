@@ -36,8 +36,8 @@
             </a>
         </div>
 
-        <!-- Video Player / Error State Recreation -->
-        <div class="w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-2xl bg-black aspect-video relative group cursor-pointer">
+        <!-- Demo Video / Visual -->
+        <div class="w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-2xl bg-gradient-to-br from-gray-900 to-black aspect-video relative group cursor-pointer border border-gray-800">
             <!-- Volume Icon -->
             <div class="absolute top-6 right-6 z-20 text-gray-400">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
@@ -46,22 +46,22 @@
             <!-- Content -->
             <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
                 <!-- Play Button Circle -->
-                <div class="w-16 h-16 md:w-20 md:h-20 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center mb-6 group-hover:bg-white/20 transition-all">
-                    <svg class="w-8 h-8 md:w-10 md:h-10 text-white fill-current ml-1" viewBox="0 0 24 24">
+                <div class="w-16 h-16 md:w-20 md:h-20 bg-brand-green/20 backdrop-blur-sm rounded-full flex items-center justify-center mb-6 group-hover:bg-brand-green/30 transition-all border border-brand-green/30">
+                    <svg class="w-8 h-8 md:w-10 md:h-10 text-brand-green fill-current ml-1" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z" />
                     </svg>
                 </div>
 
-                <!-- Error Message Text (Recreating the screenshot detail) -->
-                <h3 class="text-white text-xl md:text-2xl font-medium mb-2">We couldn't verify the security of your connection.</h3>
+                <!-- Demo Message -->
+                <h3 class="text-white text-xl md:text-2xl font-medium mb-2">Watch LoudEcho in Action</h3>
                 <p class="text-gray-400 text-sm md:text-base max-w-lg">
-                    Access to this content has been restricted. Contact your internet service provider for help.
+                    See how we generate unique, contextual ads in 300 milliseconds—before the page even loads.
                 </p>
             </div>
             
-            <!-- Progress Bar (Fake) -->
-            <div class="absolute bottom-0 left-0 right-0 h-1 bg-gray-800">
-                <div class="h-full w-1/3 bg-brand-green"></div>
+            <!-- Speed Indicator -->
+            <div class="absolute bottom-6 left-6 bg-black/50 backdrop-blur-sm border border-brand-green/30 rounded-lg px-4 py-2">
+                <div class="text-brand-green text-xs font-bold uppercase tracking-widest">300ms Generation Time</div>
             </div>
         </div>
     </div>

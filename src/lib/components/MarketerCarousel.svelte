@@ -69,14 +69,14 @@
         <div class="min-w-[300px] md:min-w-[400px] bg-[#FEFCBF] rounded-xl overflow-hidden relative group cursor-pointer aspect-[4/3]">
              <div class="p-8 h-full flex flex-col justify-end relative z-10">
                  <div class="flex items-end gap-4">
-                     <img src="https://placehold.co/100x100/yellow/white?text=S" class="w-16 h-16 rounded grayscale object-cover" alt="User" />
+                     <img src="https://placehold.co/100x100/yellow/white?text=M" class="w-16 h-16 rounded grayscale object-cover" alt="User" />
                      <div>
-                         <h3 class="text-xl font-serif-display leading-tight">Sarah Jenkins</h3>
-                         <p class="text-xs text-gray-500">Head of SEO, TechFlow</p>
+                         <h3 class="text-xl font-serif-display leading-tight">Marcus Rodriguez</h3>
+                         <p class="text-xs text-gray-500">Director of Performance, ScaleUp</p>
                      </div>
                  </div>
                  <div class="mt-4 pt-4 border-t border-gray-200/50">
-                     <span class="font-bold text-xs opacity-50">TechFlow</span>
+                     <span class="font-bold text-xs opacity-50">SCALEUP</span>
                  </div>
              </div>
         </div>

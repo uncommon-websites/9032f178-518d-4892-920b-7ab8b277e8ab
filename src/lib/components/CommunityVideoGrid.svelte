@@ -31,12 +31,12 @@
                 <img src="https://placehold.co/200x200/eee/333?text=User" alt="User" class="w-full h-full object-cover" />
             </div>
             <div class="flex-1 text-center md:text-left">
-                <blockquote class="text-2xl md:text-3xl font-serif-display text-green-600 leading-tight">
-                    "Such a great experience learning from the brightest group of people. Thanks for having me!"
+                <blockquote class="text-2xl md:text-3xl font-serif-display text-brand-green leading-tight">
+                    "The LoudEcho community helped us 3x our ROAS in 6 weeks. Best performance marketing minds in one place."
                 </blockquote>
                 <div class="mt-4 text-xs font-bold uppercase tracking-widest text-gray-400">
-                    Michelle Huang <br/>
-                    <span class="text-gray-300">Head of Growth Marketing, Whop</span>
+                    Marcus Rodriguez <br/>
+                    <span class="text-gray-300">Director of Performance Marketing, ScaleUp</span>
                 </div>
             </div>
         </div>

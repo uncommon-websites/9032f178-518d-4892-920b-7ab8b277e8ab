@@ -42,10 +42,10 @@
 
       <!-- Right Actions -->
       <div class="flex items-center space-x-4 sm:space-x-6">
-        <a href="#" class="hidden md:block text-sm font-medium text-gray-600 hover:text-gray-900">Log In</a>
-        <a href="#" class="hidden md:block text-sm font-medium text-gray-600 hover:text-gray-900">Start Free Trial</a>
-        <a href="#" class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-full text-gray-900 bg-brand-green hover:bg-brand-green-hover transition-colors shadow-sm">
-          Book a Demo
+        <a href="#" class="hidden md:block text-sm font-medium text-gray-600 hover:text-gray-900">Sign In</a>
+        <a href="#" class="hidden md:block text-sm font-medium text-gray-600 hover:text-gray-900">Watch Demo</a>
+        <a href="#" class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-gray-900 hover:bg-gray-800 transition-colors shadow-sm">
+          Request Access
           <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>

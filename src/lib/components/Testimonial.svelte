@@ -35,7 +35,7 @@
                  </div>
              </div>
              <div class="relative h-[600px] bg-gray-100 overflow-hidden group">
-                 <img src="https://placehold.co/600x800/e5e7eb/a3a3a3?text=Ethan+Smith" alt="Ethan Smith" class="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                 <img src="https://placehold.co/600x800/e5e7eb/a3a3a3?text=Sarah+Chen" alt="Sarah Chen" class="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
                  
                  <!-- Navigation Arrows Overlay -->
                  <div class="absolute bottom-0 right-0 flex border-t border-l border-white/20 bg-white">
